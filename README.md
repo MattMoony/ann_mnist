@@ -17,6 +17,28 @@ A (hopefully) well-structured and easy to understand Jupyter notebook outlining 
 
 > Check out the notebook **[here](main.ipynb)!**
 
+## 📂 Repository Structure
+
+If you want to clone this repository and run the notebook locally, then don't forget to install the dependencies, but most importantly, don't forget to also download the official [MNIST Handwritten Digits Dataset](http://yann.lecun.com/exdb/mnist/) and place it in the right place.
+
+```txt
+ann_mnist/
+ |- data/                           // dataset directory
+   |- t10k-images-idx3-ubyte.gz     // test features
+   |- t10k-labels-idx1-ubyte.gz     // test labels
+   |- train-images-idx3-ubyte.gz    // train features
+   |- train-labels-idx1-ubyte.gz    // train labels
+ |- media/                          // media for README.md
+   |- ...
+ |- snaps/                          // generated media
+   |- ...
+ |- main.ipynb                      // main jupyter notebook
+ |- main.py                         // legacy, 2019 code (fashion dataset)
+ |- notebook.py                     // code-only version of notebook
+ |- ...
+
+```
+
 ## 🔍 Want More?
 
 Some of my other machine-learning repositories that I might do a makeover on soon as well. For references to other (perhaps more interesting) reads, check out the articles I linked to every now and then in the notebook.
